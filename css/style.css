@@ -1,0 +1,256 @@
+#header{
+    width: 100%;
+    height: 108vh;
+   background-image: url(/img/banner2.jpg);
+background-size: 100% 100%;
+}
+#header h2{
+    font-size: 5rem;
+    opacity: 0.9;
+    font-weight: bold;
+}
+#header #button{
+    opacity: 0.9;
+    border-radius: 30px;
+    padding: 12px 50px  ;
+    margin-top: 5rem;
+    transition: all 0.6s linear;
+    border: 0;
+}
+#header #button:hover{
+    background-color: rgb(255, 93, 93);
+}
+#header #imge{
+   margin-bottom: -19rem;
+margin-left: 46%;
+  }
+.nav a ,.logo a{
+  color: black;
+text-decoration: none;
+transition: all 0.4s linear;
+}
+.nav .fa-bars{
+    color: white;
+    font-size: 2rem;
+    display: none;
+}
+.nav a:hover{
+    color: white;
+transition: all 0.4s linear;
+
+}
+.plane{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/plan_bg.png);
+    background-size: 100% 100%;
+}
+.plane__contact{
+    display: grid;  
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem   ;
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+.plane__contact .item{
+    width: 95%;
+    height: 67vh;
+background-color: rgb(255, 225, 160);
+    text-align: center; 
+}
+.plane__contact img{
+    margin-bottom: 1.5rem;
+
+}
+.plane__contact .img{
+    background-color: white;
+}
+.plane__contact button{
+    background-color: rgb(71, 71, 71);
+    border-radius: 5px;
+    border: 0;
+    margin-top: 2rem;
+    padding: 8px 25px ;
+    color: white;
+    font-size: 1.1rem;
+transition: all 0.5s linear;
+opacity: 0;
+
+}
+.plane__contact  button:hover{
+background-color: rgb(255, 117, 117);
+transition: all 0.5s linear;
+}
+.plane__contact .item:hover button{
+    opacity: 1;
+}
+
+.plane__contact h5{
+    transition: all 0.5s linear;
+}
+.plane__contact .item:hover h5{
+    color: rgb(243, 238, 235);
+    transition: all 0.5s linear;
+
+}
+.Voluptate__contact{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 1rem ;
+    margin-left: 4rem;
+    margin-right: 4rem  ;
+}
+.Voluptate .title{
+
+    text-align: center;
+    margin-top: 2rem    ;
+    padding-top: 2rem   ;
+}
+.about{
+    background-image: url(/img/about_bg.jpg);
+    background-size: 100% 100% ;
+}
+.about__contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem  ;
+    padding-bottom: 5rem;
+    padding-top: 5rem;
+}
+.about__contact button{
+    padding: 10px 35px;
+    font-size: 1.1rem;
+    background-color: rgb(71, 71, 71);
+    border: 0;
+    color: white;
+    border-radius: 10px;
+    transition: all 0.6s linear;
+
+}
+.about__contact button:hover{
+    background-color: rgb(174, 72, 72);
+    transition: all 0.6s linear;
+
+}
+.blog__contact{
+    display: grid;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    margin-bottom: 3rem;
+    height: 65vh;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem   ;
+    box-shadow: 0 0 20px  rgb(210, 210, 210); 
+    margin-top: 2rem    ;
+    align-items: center;
+}
+.blog__contact  button{
+   margin-top: -30rem;
+  margin-left: 30rem;
+  border-right: 0;
+width: 90px;
+}
+.blog__contact img{
+    width: 100%;
+}
+.blog__contact p{
+    line-height: 30px;
+    opacity: 0.9;
+    margin-right: 2rem;
+}
+.blog__contact  span{
+    opacity: 0.5;
+}
+.blog__contact a{
+    color: black;
+    font-weight: bold;
+    font-size: 1.3rem;
+    text-decoration: none;
+}
+.blog__contact a:hover{
+    color: red;
+}
+#button_brek{
+    background-color: black;
+    padding: 15px 1px ;
+    border-radius: 50px;
+    border: 3px solid rgb(94, 94, 94);
+    
+}
+.footer{
+width: 100%;
+height: 110vh;
+margin-top: 100px;
+
+}
+.footer .top-{
+    height: 20vh;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 0 20px rgb(151, 151, 151);
+
+}
+.footer .top- i{
+    border: 1px solid red;
+    padding: 10px 15px;
+}
+.footer__contact{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem   ;
+}
+.footer__contact input{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    border: 0;
+    border-bottom: 1px solid  rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+}
+.footer__contact  textarea{
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    margin-top: 2rem;
+    font-size: 1.3rem;
+    border: 0;
+    border-bottom: 1px solid  rgb(255, 255, 255);
+    align-items: center;
+    display: flex;
+    text-transform: capitalize;
+
+}
+.top-{
+    background-color: white;
+}
+.footer__contact button{
+    padding: 10px 35px ;
+    font-size: 1.1rem;
+    background-color: rgb(254, 127, 127);
+    border-radius: 20px;
+    border: 0;
+    margin-top: 3rem;
+    color: white;
+    transition: all 0.7s linear;
+    text-transform: capitalize;
+
+}
+.footer__contact button:hover{
+    transition: all 0.7s linear;
+background-color: white;
+color: black;
+}
+.footer__contact i{
+    margin-top: 3rem;
+    color: white;
+    font-size: 2rem;
+    margin-left:1rem;
+}
+.footer__contact .fa-facebook{
+    margin-left: 20rem;
+}
+.footer__contact i:hover{
+    color: rgb(255, 117, 117);
+}
